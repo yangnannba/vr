@@ -1,0 +1,214 @@
+
+body{
+	background-color:#000000 ;
+	background-image:  url(../images/wap-bg.jpg),url(../images/wap-bot-bg.jpg);	
+	background-position: top center,bottom center;
+	background-repeat: no-repeat;
+	background-size: 100%,100%;
+	padding-bottom:30px;
+}
+img{
+	width:100%;
+	display: block;
+}
+.nav > li > a:hover, .nav > li > a:focus{
+	background: none;
+}
+#home{
+	position:relative;
+}
+#home .nav{
+	position:absolute;
+	top:10px;
+	right:15px;
+}
+#home .nav li{
+	text-align: right;
+}
+#home .nav li a{
+	color:#fff;
+	padding:0;
+	line-height: 2.5em;
+	font-size:16px;	
+}
+
+#home .nav li a.on,#home .nav li a:hover{
+	color:#f9e900;
+}
+#home .nav li a:hover{
+	background: none;
+}
+#vr{
+	background: rgba(255,102,0,.55);
+	margin-bottom:50px;
+}
+#vr h1{
+	color:#fff;
+	text-indent: 15px;
+}
+#vr p{
+
+	color:#000;
+	font-size:20px;
+	margin-left:-15px;
+	margin-right:-15px;
+	padding:10px 20px 10px 0;
+}
+#Technology{
+	margin-bottom:10px;
+}
+#Technology h2{
+	margin-top:0;
+	overflow: hidden;
+}
+#Technology h2,#Technology p{
+	color:#fff;
+}
+
+
+
+.vr-img{
+	padding-left:0;
+}
+
+
+#History h2,#History h4,#History p{
+	color:#fff;
+}
+#History p{
+	margin-bottom:20px;
+}
+
+#Applications h2{
+	color:#fff;
+}
+
+#Applications p{
+	background: #ee8524;
+	color:#000;
+	margin-left:-15px;
+	margin-right:-15px;
+	padding:30px;
+}
+
+@media (min-width: 375px) and (max-width:413px) {
+#home .nav li a{
+	font-size:19px;	
+}
+}
+@media (min-width: 414px) and (max-width:767px) {
+#home .nav li a{
+	font-size:21px;	
+}
+}
+@media (min-width: 768px) {
+		body{
+			background: #000000 url(../images/pc-bot-bg.jpg) bottom center no-repeat;	
+			background-size: 100%;
+
+		}
+		#home .nav{
+			position:absolute;
+			top:0px;
+			left:0;
+			text-align: center;
+			
+		}
+		#home .nav li{
+			text-align: center;
+			position:relative;
+			
+			display: inline-block;
+		}
+		
+		#home .nav li:after{
+			content:"";
+			width:2px;
+			height:30px;
+			background: #fff;
+			position:absolute;	
+			top:40px;
+			right:0;		
+		}		
+		#home .nav li:nth-last-child(1):after{
+			content:"";
+			width:0;
+			height:0;
+
+		}		
+		#home .nav li a{
+			color:#fff;
+			padding:0;
+			line-height: 3.9em;
+			font-size:28px;	
+			padding:0 20px;
+		}		
+		
+		#vr p{
+			background: #cc5201;
+			color:#000;
+			font-size:20px;
+			margin-left:-15px;
+			margin-right:-15px;
+			padding:30px 60px;
+			margin-bottom:60px;
+		}		
+		#Technology p{
+			font-size:20px;
+		}	
+		#History{
+			margin:30px auto 50px;
+		}	
+		#History p{
+			font-size: 20px;
+		}
+		#History h4{
+			line-height: 1em;
+			margin:0;
+			font-size: 26px;
+		}
+		.History-2{
+			position:relative;
+			bottom:30px;
+		}
+		.History-3{
+			position:relative;
+			bottom:56px;
+		}
+		.History-4{
+			position:relative;
+			bottom:86px;
+		}
+		.History-5{
+			position:relative;
+			bottom:142px;
+		}
+		.History-6{
+			position:relative;
+			bottom:200px;
+		}
+		#Applications .row{
+			background: rgba(255,102,0,.8);
+			padding-top:20px;
+		
+		}
+		#Applications h2{
+			padding-left:35px;
+		}
+		#Applications p{
+			background: none;
+			padding:50px;
+			padding-top:0;
+			color:#fff;
+			font-size: 20px;
+		}
+		
+}
+@media (min-width: 992px) {
+	#Technology h2{
+		margin-top:50px;
+	}
+		#home .nav li a{
+			padding:0 30px;
+		}	
+}
